@@ -23,7 +23,7 @@ const getAllProduct= async(req,res,next)=> {
     if(numericFilters){
         const operatorMap = {
             ">":'$gt',
-            ">=":'$gte',
+            ">=":'$gte', 
             "=":'$eq',
             "<":'$lt',
             "<=":'$lte',
